@@ -16,5 +16,3 @@ class Parcel
   end
 end
 
-
-

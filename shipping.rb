@@ -50,7 +50,6 @@ end
 def show_parcels
   @parcels.each do |parcel|
     puts "Your shipping cost is $#{parcel.shipping_cost}."
-  # @parcel_costs << parcel.shipping_cost
   end
 
 end
