@@ -7,10 +7,6 @@ class Parcel
     @volume = @height * @width * @length
   end
 
-  # def volume
-  #   @volume = @height * @width * @length
-  # end
-
   def shipping_cost
     @shipping_cost = @volume * @weight
   end
